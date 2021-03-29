@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 
-import styles from './NotificationsView.styles';
+import styles from './NotificationView.styles';
 
 const NotificationsView = () => {
   return (
