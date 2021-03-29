@@ -1,10 +1,12 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 
+import styles from './SettingsView.styles';
+
 const SettingsView = () => {
   return (
-    <View>
-      <Text>Notifications View</Text>
+    <View style={styles.container}>
+      <Text>Settings View</Text>
     </View>
   )
 }
